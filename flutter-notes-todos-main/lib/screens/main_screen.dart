@@ -81,7 +81,9 @@ class _MainScreenState extends State<MainScreen> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.pushReplacementNamed(context, '/input');
+        },
         child: Icon(Icons.add),
         backgroundColor: primaryColor,
       ),

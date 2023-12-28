@@ -4,6 +4,6 @@ import 'color_scheme.dart';
 
 final appTheme = ThemeData(
   fontFamily: 'poppins',
-  primarySwatch: Colors.red,
+  primarySwatch: Colors.amber,
   scaffoldBackgroundColor: darkGreyColor,
 );
